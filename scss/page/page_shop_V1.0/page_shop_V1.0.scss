@@ -3,6 +3,7 @@
 //our-shop
 .our-shop {
   padding-top: 100px;
+  padding-bottom: 120px;
 }
 .our-shop-main {
   position: relative;
@@ -156,8 +157,7 @@
     text-decoration: none;
   }
 }
-.category__title--text {
-}
+
 .category__title--icon {
   font-weight: 400;
   font-size: 14px;
@@ -445,3 +445,8 @@
 
   color: #4f77ff;
 }
+
+//CTA
+// .cta {
+//   background: #f8fafc;
+// }
