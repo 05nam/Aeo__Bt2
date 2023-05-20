@@ -1,0 +1,18 @@
+.hero-main__page {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  text-transform: uppercase;
+}
+
+.hero-main__page-bold {
+  color: #2d3958;
+}
+
+.hero-main__page-light {
+  color: #7b88a8;
+}/*# sourceMappingURL=hero-global.css.map */

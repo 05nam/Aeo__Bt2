@@ -1,0 +1,18 @@
+.btn--big {
+  border-radius: 5px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 12px 38px;
+}
+
+.btn--blue {
+  background-color: #4c6fff;
+  color: #ffffff;
+}
+
+.btn--white {
+  background-color: #ffffff;
+}/*# sourceMappingURL=button.css.map */

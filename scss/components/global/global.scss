@@ -1,0 +1,65 @@
+@import "../../abstracts/variables_home.scss";
+
+.global {
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-bottom: 80px;
+}
+.global__title {
+  padding-left: 117px;
+  padding-right: 117px;
+  padding-bottom: 10px;
+  font-family: $font-Outfit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: -2px;
+  color: $Text_Heading;
+}
+.global__title--small {
+  font-family: $font-DMSans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  color: $Text_text;
+  padding-bottom: 30px;
+}
+.global__desc {
+  font-family: $font-DMSans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  color: $Text_text;
+}
+.global__desc--big {
+  padding-left: 80px;
+  padding-right: 80px;
+
+  font-family: $font-Outfit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: -2px;
+  color: $Text_Heading;
+}
+.global__desc--big-green {
+  color: green;
+}
+
+.global__title--purple-gradient {
+  background: linear-gradient(185.78deg, #61dcdf 0.38%, #886cff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}

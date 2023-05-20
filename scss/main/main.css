@@ -1,0 +1,179 @@
+@import "../components/section-page/background/background.css";
+@import "../components/section-page/header/header.css";
+@import "../components/section-page/footer/footer.css";
+@import "../components/global/global.css";
+@import "../components/nav-select/nav-select.css";
+@import "../components/checkbox/checkbox.css";
+@import "../page/home//hero/hero.css";
+@import "../page/home/Services/Services.css";
+@import "../page/home/logo/logo.css";
+@import "../page/home/items/items.css";
+@import "../page/home/gallery/gallery.css";
+@import "../page/home/about/about.css";
+@import "../page/home/portfolio/portfolio.css";
+@import "../page/home/pricing/pricing.css";
+@import "../page/home/cta/cta.css";
+@import "../page/home/reviews/reviews.css";
+@import "../components/section-page/hero-global/hero-global.css";
+@import "../page/shop_single/shop_single.css";
+@import "../../scss/page/page_shop_V1.0/page_shop_V1.0.css";
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+    padding: 0;
+  }
+}
+.btn--big {
+  border-radius: 5px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 12px 38px;
+}
+
+.btn--blue {
+  background-color: #4c6fff;
+  color: #ffffff;
+}
+
+.btn--white {
+  background-color: #ffffff;
+}/*# sourceMappingURL=main.css.map */

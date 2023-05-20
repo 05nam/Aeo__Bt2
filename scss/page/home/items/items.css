@@ -1,0 +1,81 @@
+.container-item {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.items-main {
+  padding: 100px 65px;
+  background-color: #f7f5f1;
+  border-radius: 20px;
+}
+
+.items-main .row {
+  margin-right: -30px;
+}
+.items-main .row .col-4 {
+  padding: 0;
+  margin-right: 30px;
+  max-width: calc(33.333% - 30px);
+}
+
+.items--content {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: -1px;
+  color: #2d3958;
+}
+
+.items .items--icon {
+  display: flex;
+}
+
+.items__card {
+  display: flex;
+}
+
+.items .items--icon {
+  padding-right: 30px;
+}
+
+.items__card .items__card--bg-purple {
+  background-color: #886cff;
+  width: 70px;
+  height: 70px;
+  border-radius: 100rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.items__card .items__card--bg-blue {
+  background-color: #4f77ff;
+  width: 70px;
+  height: 70px;
+  border-radius: 100rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.items__card .items__card--title {
+  padding-bottom: 10px;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.4px;
+  color: #2d3958;
+}
+
+.items__card .items__card--desc {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #7b88a8;
+}/*# sourceMappingURL=items.css.map */

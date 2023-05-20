@@ -1,0 +1,13 @@
+@import "../abstracts/variables_home.scss";
+
+.wrapper {
+  max-width: $page-max;
+  margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+    padding: 0;
+  }
+}

@@ -1,0 +1,44 @@
+@import "../base/resetCss.scss";
+@import "../abstracts/variables_home.scss";
+@import "../layout/layout.scss";
+@import "../components/button/button.scss";
+@import "../components/section-page/background/background.css";
+// header
+@import "../components/section-page/header/header.css";
+//footer
+@import "../components/section-page/footer/footer.css";
+//global
+@import "../components/global/global.css";
+//nav-select
+@import "../components/nav-select/nav-select.css";
+// checkbox
+@import "../components/checkbox/checkbox.css";
+//---------Home---------------
+//hero
+@import "../page/home//hero/hero.css";
+//Services
+@import "../page/home/Services/Services.css";
+//logo
+@import "../page/home/logo/logo.css";
+//items
+@import "../page/home/items/items.css";
+//gallery
+@import "../page/home/gallery/gallery.css";
+//about
+@import "../page/home/about/about.css";
+//portfolio
+@import "../page/home/portfolio/portfolio.css";
+//pricing
+@import "../page/home/pricing/pricing.css";
+//cta
+@import "../page/home/cta/cta.css";
+
+//reviews
+@import "../page/home/reviews/reviews.css";
+
+//---------shop_single---------------
+@import "../components/section-page/hero-global/hero-global.css";
+@import "../page/shop_single/shop_single.css";
+
+//---------pageSHOP---------------
+@import "../../scss/page/page_shop_V1.0/page_shop_V1.0.css";

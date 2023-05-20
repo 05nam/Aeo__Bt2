@@ -1,0 +1,54 @@
+@import "../../../abstracts/variables_home.scss";
+
+// header
+.BG--Light-Alt {
+  background-color: $BG_Light_Alt;
+}
+.BG--ln {
+  background: #f8fafc;
+  position: relative;
+  overflow: hidden;
+}
+
+.BG--ln-tr {
+  background: $Action_Purple;
+  width: 761px;
+  height: 743.78px;
+  opacity: 0.3;
+  filter: blur(100px);
+  position: absolute;
+  left: 1330px;
+  top: -206px;
+}
+
+.BG--ln-br {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: 700px;
+  top: 386px;
+  background: #4f77ff;
+  opacity: 0.3;
+  filter: blur(100px);
+}
+
+.BG--ln-bl {
+  position: absolute;
+  width: 783.4px;
+  height: 595.02px;
+  left: -300px;
+  top: 200px;
+
+  /* Purple Gradient */
+
+  background: linear-gradient(185.78deg, #61dcdf 0.38%, #886cff 100%);
+  opacity: 0.4;
+  filter: blur(100px);
+  transform: matrix(-1, 0, -0.01, -1, 0, 0);
+}
+
+.BG--Purple {
+  background: $Action_Purple;
+  opacity: 0.3;
+  filter: blur(100px);
+}

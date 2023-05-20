@@ -1,0 +1,112 @@
+@import "../../../abstracts/variables_home.scss";
+
+.hero {
+  // background-color: $BG_Light_Alt;
+  padding-top: 360px;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+//--------hero-main---------
+
+//--------hero-main__bg-Image---------
+.hero-main__bg-Image {
+  width: 100%;
+  padding-left: 112.5px;
+  padding-right: 22.5px;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+//--------hero-main__content---------
+.hero-main__content {
+  max-width: 770px;
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  top: 136px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+//hero-main__header
+.hero-main__header {
+  font-family: $font-Outfit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 78px;
+  text-align: center;
+  letter-spacing: -2px;
+  color: $Text_Heading;
+  padding-bottom: 40px;
+}
+.hero-main__header--Purple {
+  background: linear-gradient(185.78deg, #61dcdf 0.38%, #886cff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+//hero-main__body
+.hero-main__body {
+  font-family: $font-DMSans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  color: $Text_text;
+  padding-bottom: 70px;
+  padding-right: 120px;
+  padding-left: 120px;
+}
+
+// hero-main__footer
+.hero-main__footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-main--button {
+  margin-right: 10px;
+}
+.hero-main--play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.hero-main__footer--icon {
+  width: 52px;
+  height: 52px;
+  padding-right: 7px;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.hero-main__footer--text {
+  font-family: $font-Outfit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  text-transform: uppercase;
+  color: $Text_Heading;
+}
+
+// min 920px
+@media screen and (min-width: 992px) and (max-width: 1190px) {
+  .hero-main__content {
+    top: -350px;
+  }
+  .hero-main__body {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}

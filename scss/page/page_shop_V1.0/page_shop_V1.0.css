@@ -1,0 +1,437 @@
+.our-shop {
+  padding-top: 100px;
+}
+
+.our-shop-main {
+  position: relative;
+}
+
+.devices {
+  max-width: 870px;
+  width: 100%;
+  margin-left: auto;
+}
+
+.devices-header {
+  border-bottom: 2px solid #e7e5ea;
+}
+
+.devices-header__title {
+  position: relative;
+  padding-bottom: 27px;
+}
+
+.devices-header__title--text {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.4px;
+  color: #2d3958;
+}
+
+.devices-header__short {
+  border: 1px solid #e7e5ea;
+  border-radius: 5px;
+  position: absolute;
+  top: -10px;
+  right: 0;
+}
+.devices-header__short .btn {
+  padding: 10px 20px;
+}
+
+.dropdown-toggle::after {
+  margin-left: 65px;
+}
+
+.devices-header__short .btn,
+.dropdown-menu {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #7b88a8;
+  opacity: 0.7;
+}
+
+.dropdown-menu.show {
+  width: 100%;
+}
+
+.cards .row {
+  margin-right: -30px;
+  margin-bottom: 40px;
+}
+.cards .row .col-md-4 {
+  padding: 0;
+  margin-right: 30px;
+  max-width: calc(33.333% - 30px);
+}
+
+.devices-body {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  border-bottom: 2px solid #e7e5ea;
+}
+
+.cards__item--img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.cards__item--name {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #2d3958;
+  padding-top: 15px;
+}
+
+.cards__item--price {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #7b88a8;
+  padding-top: 15px;
+}
+
+.devices-footer {
+  padding-top: 40px;
+}
+
+.pagination {
+  justify-content: center;
+}
+
+.page-item {
+  width: 50px;
+  height: 50px;
+}
+
+.page-link {
+  border: none;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  text-transform: uppercase;
+  color: #7b88a8;
+}
+
+.filter {
+  max-width: 274px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: -30px;
+}
+
+.category__title {
+  border-bottom: 2px solid #e7e5ea;
+  padding-bottom: 25px;
+  margin-bottom: 20px;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.4px;
+  color: #2d3958;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+.category__title a {
+  text-decoration: none;
+}
+
+.category__title--icon {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.3px;
+  color: #7b88a8;
+  transform: rotate(-90deg);
+  margin-right: 2px;
+}
+
+.category__select {
+  display: flex;
+  align-items: center;
+}
+
+.category__select--check {
+  margin-right: 10px;
+}
+
+.category__select--right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+.category__select--right a {
+  text-decoration: none;
+}
+
+.category__select--text {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.3px;
+  color: #2d3958;
+}
+
+.category__select--icon {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.3px;
+  color: #7b88a8;
+  transform: rotate(90deg);
+}
+
+.icon__arrow--negative90 {
+  transform: rotate(-90deg);
+  margin-right: 2px;
+}
+
+.category__active {
+  display: flex;
+  align-items: center;
+}
+.category__active .category__select--right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+.category__active .category__select--right a {
+  text-decoration: none;
+}
+
+.category__extend {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.category__extend--text {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.3px;
+  color: #7b88a8;
+}
+
+/* This line can be removed it was just for display on CodePen: */
+.container-price {
+  margin-top: 30px;
+}
+
+.slider-labels {
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+/* Functional styling;
+ * These styles are required for noUiSlider to function.
+ * You don't need to change these rules to apply your design.
+ */
+.noUi-target,
+.noUi-target * {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  touch-action: none;
+  -moz-user-select: none;
+  user-select: none;
+  box-sizing: border-box;
+}
+
+.noUi-target {
+  position: relative;
+  direction: ltr;
+}
+
+.noUi-base {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  /* Fix 401 */
+}
+
+.noUi-origin {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.noUi-handle {
+  position: relative;
+  z-index: 1;
+}
+
+.noUi-stacking .noUi-handle {
+  /* This class is applied to the lower origin when
+   its values is > 50%. */
+  z-index: 10;
+}
+
+.noUi-state-tap .noUi-origin {
+  transition: left 0.3s, top 0.3s;
+}
+
+.noUi-state-drag * {
+  cursor: inherit !important;
+}
+
+/* Painting and performance;
+ * Browsers can paint handles in their own layer.
+ */
+.noUi-base,
+.noUi-handle {
+  transform: translate3d(0, 0, 0);
+}
+
+/* Slider size and handle placement;
+ */
+.noUi-horizontal {
+  height: 4px;
+}
+
+.noUi-horizontal .noUi-handle {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  left: -7px;
+  top: -7px;
+  background-color: #4f77ff;
+}
+
+/* Styling;
+ */
+.noUi-background {
+  background: #d6d7d9;
+}
+
+.noUi-connect {
+  background: #4f77ff;
+  transition: background 450ms;
+}
+
+.noUi-origin {
+  border-radius: 2px;
+}
+
+.noUi-target {
+  border-radius: 2px;
+}
+
+/* Handles and cursors;
+ */
+.noUi-draggable {
+  cursor: w-resize;
+}
+
+.noUi-vertical .noUi-draggable {
+  cursor: n-resize;
+}
+
+.noUi-handle {
+  cursor: default;
+  box-sizing: content-box !important;
+}
+
+.noUi-handle:active {
+  border: 8px solid #345dbb;
+  border: 8px solid rgba(53, 93, 187, 0.38);
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  left: -14px;
+  top: -14px;
+}
+
+/* Disabled state;
+ */
+[disabled].noUi-connect,
+[disabled] .noUi-connect {
+  background: #b8b8b8;
+}
+
+[disabled].noUi-origin,
+[disabled] .noUi-handle {
+  cursor: not-allowed;
+}
+
+#slider-range-value1,
+#slider-range-value2 {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.3px;
+  color: #2d3958;
+}
+
+.container-price .row {
+  margin: 0;
+  margin-top: 15px;
+}
+
+.price-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.price-footer--price {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: -0.3px;
+  text-transform: uppercase;
+  /* Text/Text */
+  color: #888682;
+  opacity: 0.7;
+}
+
+.price-footer--filter {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  text-align: right;
+  letter-spacing: -0.3px;
+  text-transform: uppercase;
+  /* Action/Blue */
+  color: #4f77ff;
+}/*# sourceMappingURL=page_shop_V1.0.css.map */

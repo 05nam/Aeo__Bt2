@@ -1,0 +1,115 @@
+.footer {
+  background-color: #292f3a;
+}
+
+.footer-main {
+  padding-top: 105px;
+}
+.footer-main .row {
+  margin: 0;
+}
+.footer-main .row .col-8 {
+  padding: 0;
+}
+.footer-main .row .col-4 {
+  padding: 0;
+}
+
+.footer__logo img {
+  width: 100%;
+  max-height: 45px;
+  height: 100%;
+}
+
+.footer__link .row {
+  margin: 0;
+  margin-right: -30px;
+}
+.footer__link .row .col-3 {
+  padding: 0;
+  margin-right: 30px;
+  max-width: calc(25% - 30px);
+}
+
+.footer__list.footer__list--header {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: -1px;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+
+.footer__list.footer__list--body {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.3px;
+  text-transform: uppercase;
+  /* Text/Text Gray */
+  color: #e7e5ea;
+}
+.footer__list.footer__list--body li {
+  padding-bottom: 10px;
+  list-style: none;
+}
+.footer__list.footer__list--body a {
+  text-decoration: none;
+  color: #e7e5ea;
+}
+
+.footer__list.footer__list--body a:hover {
+  color: #4f77ff;
+}
+
+.footer__sub--title {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: -1px;
+  /* Text/Text White */
+  color: #ffffff;
+}
+
+.footer__sub--desc,
+.footer__sub--text {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* Text/Text Gray */
+  color: #e7e5ea;
+}
+
+.footer-end {
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+.footer_line {
+  width: 100%;
+  height: 1px;
+  background-color: #7b88a8;
+  opacity: 0.3;
+}
+
+.footer-end--desc {
+  padding-top: 40px;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #e7e5ea;
+}
+
+.footer-end--icon {
+  padding-top: 40px;
+}/*# sourceMappingURL=footer.css.map */

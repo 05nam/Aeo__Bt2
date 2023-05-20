@@ -1,0 +1,170 @@
+.pricing-main {
+  background-color: #f7f5f1;
+  padding-top: 120px;
+  padding-bottom: 430px;
+  position: relative;
+}
+
+.pricing__time--mon,
+.pricing__time--year {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: right;
+  letter-spacing: -0.3px;
+  /* Text/Text */
+  color: #7b88a8;
+  padding-right: 20px;
+  padding-left: 16px;
+}
+
+.pricing__time--icon {
+  width: 72px;
+  height: 33px;
+  background: #e7e5ea;
+  border-radius: 16.5px;
+  position: relative;
+}
+
+.pricing__time--icon::before {
+  content: "";
+  display: inline-block;
+  background: #34c635;
+  border-radius: 100rem;
+  height: 21px;
+  width: 21px;
+  position: absolute;
+  top: 50%;
+  left: 7px;
+  transform: translateY(-50%);
+}
+
+.pricing__time--ratio {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: -0.3px;
+  color: #ffffff;
+  background: #34c635;
+  border-radius: 5px;
+  padding: 4px 12px;
+}
+
+.pricing__list {
+  position: absolute;
+  bottom: -330px;
+}
+.pricing__list .pricing__union {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  transform: translateX(100%);
+}
+
+.cards {
+  flex-wrap: wrap;
+}
+.cards .card__item {
+  margin-right: 30px;
+  max-width: calc(50% - 30px);
+}
+
+.card__bg {
+  background: #ffffff;
+  padding-top: 35px;
+  border: 1px solid #e7e5ea;
+  border-radius: 10px;
+}
+
+.card--job {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #4f77ff;
+  padding-bottom: 20px;
+}
+
+.card--salary {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 46px;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #2d3958;
+}
+
+.card--salary-bold {
+  font-size: 64px;
+  line-height: 72px;
+  text-align: center;
+  letter-spacing: -2px;
+  color: #2d3958;
+}
+
+.card--desc {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #788190;
+  padding: 10px 124px 40px 124px;
+}
+
+.card--list {
+  padding-bottom: 58px;
+  padding-left: 100px;
+}
+.card--list ul {
+  padding-bottom: 15px;
+}
+
+.card__item--icon {
+  margin-right: 20px;
+  position: relative;
+}
+
+.card__item--icon::before {
+  content: "";
+  display: inline-block;
+  width: 31.61px;
+  height: 30px;
+  background: #4f77ff;
+  opacity: 0.1;
+  border-radius: 100rem;
+  position: absolute;
+  top: -50%;
+  left: -50%;
+}
+
+.card__item--list {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: -1px;
+  color: #2d3958;
+}
+
+.card__item--button {
+  background: #4f77ff;
+  border-radius: 0px 0px 10px 10px;
+  padding: 18px 147px;
+  text-align: center;
+}
+.card__item--button .btn--blue {
+  background: #4f77ff;
+}/*# sourceMappingURL=pricing.css.map */

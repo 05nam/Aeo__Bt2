@@ -1,0 +1,33 @@
+.main-nav__select {
+  position: relative;
+}
+
+.main-nav__select::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 100rem;
+  background: #34c635;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.main-nav__select--card {
+  position: relative;
+}
+
+.main-nav__select--card::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 100rem;
+  background: red;
+  top: 8px;
+  left: 90%;
+  transform: translateX(-50%);
+}

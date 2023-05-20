@@ -1,0 +1,171 @@
+@import "../../../abstracts/variables_home.scss";
+
+//pricing-main
+.pricing-main {
+  background-color: $BG_Light_Alt;
+  padding-top: 120px;
+  padding-bottom: 430px;
+  position: relative;
+}
+
+//time
+.pricing__time--mon,
+.pricing__time--year {
+  font-family: $font-DMSans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: right;
+  letter-spacing: -0.3px;
+  /* Text/Text */
+  color: $Text_text;
+  padding-right: 20px;
+  padding-left: 16px;
+}
+.pricing__time--icon {
+  width: 72px;
+  height: 33px;
+  background: $Text_Gray;
+  border-radius: 16.5px;
+  position: relative;
+}
+.pricing__time--icon::before {
+  content: "";
+  display: inline-block;
+  background: #34c635;
+  border-radius: 100rem;
+  height: 21px;
+  width: 21px;
+  position: absolute;
+  top: 50%;
+  left: 7px;
+  transform: translateY(-50%);
+}
+
+.pricing__time--ratio {
+  font-family: $font-DMSans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: -0.3px;
+
+  color: $BG_home;
+
+  background: #34c635;
+  border-radius: 5px;
+  padding: 4px 12px;
+}
+
+//list
+.pricing__list {
+  position: absolute;
+  bottom: -330px;
+
+  .pricing__union {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    transform: translateX(100%);
+  }
+}
+.cards {
+  flex-wrap: wrap;
+
+  .card__item {
+    margin-right: 30px;
+    max-width: calc(50% - 30px);
+  }
+}
+
+.card__bg {
+  background: #ffffff;
+  padding-top: 35px;
+  border: 1px solid #e7e5ea;
+  border-radius: 10px;
+}
+.card--job {
+  font-family: $font-Outfit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: $Action_Blue;
+  padding-bottom: 20px;
+}
+.card--salary {
+  font-family: $font-Outfit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 46px;
+  text-align: center;
+  letter-spacing: -1px;
+  color: $Text_Heading;
+}
+.card--salary-bold {
+  font-size: 64px;
+  line-height: 72px;
+  text-align: center;
+  letter-spacing: -2px;
+  color: $Text_Heading;
+}
+.card--desc {
+  font-family: $font-DMSans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: $Black-200;
+  padding: 10px 124px 40px 124px;
+}
+.card--list {
+  padding-bottom: 58px;
+  padding-left: 100px;
+  //ul
+  ul {
+    padding-bottom: 15px;
+  }
+}
+
+.card__item--icon {
+  margin-right: 20px;
+  position: relative;
+}
+
+.card__item--icon::before {
+  content: "";
+  display: inline-block;
+  width: 31.61px;
+  height: 30px;
+  background: $Action_Blue;
+  opacity: 0.1;
+  border-radius: 100rem;
+  position: absolute;
+  top: -50%;
+  left: -50%;
+}
+.card__item--list {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: -1px;
+  color: $Text_Heading;
+}
+.card__item--button {
+  background: #4f77ff;
+  border-radius: 0px 0px 10px 10px;
+  padding: 18px 147px;
+  text-align: center;
+  .btn--blue {
+    background: #4f77ff;
+  }
+}

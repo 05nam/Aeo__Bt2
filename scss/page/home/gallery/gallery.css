@@ -1,0 +1,143 @@
+.gallery {
+  padding-top: 120px;
+  padding-bottom: 130px;
+}
+
+.gallery-main {
+  position: relative;
+}
+
+.gallery__img {
+  max-height: 500px;
+  width: 100%;
+  border-radius: 20px;
+}
+.gallery__img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+
+.gallery__info {
+  padding-top: 40px;
+}
+
+.gallery__info--address {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: -1px;
+  color: #2d3958;
+}
+
+.gallery__info--price {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  text-align: right;
+  letter-spacing: -1px;
+  color: #7b88a8;
+}
+
+.gallery__content {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.3px;
+  color: #7b88a8;
+  padding-top: 25px;
+}
+
+.gallery__right {
+  padding-left: 130px;
+}
+
+.gallery__title {
+  padding-top: 60px;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 50px;
+  letter-spacing: -0.02em;
+  color: #2d3958;
+}
+
+.gallery__desc {
+  padding-top: 40px;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.3px;
+  color: #788190;
+}
+
+.gallery__view {
+  padding-top: 60px;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: right;
+  letter-spacing: -0.3px;
+  text-transform: uppercase;
+}
+.gallery__view a {
+  color: #886cff;
+  text-decoration: none;
+}
+.gallery__view span {
+  padding-left: 10px;
+}
+
+.gallery__arrow {
+  padding-top: 90px;
+}
+
+.gallery__arrow--left {
+  width: 56px;
+  height: 56px;
+  margin-right: 10px;
+  text-align: center;
+  border: 1px solid #e7e5ea;
+  border-radius: 100rem;
+}
+.gallery__arrow--left img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.gallery__arrow--right {
+  text-align: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 100rem;
+  background: #ffffff;
+  box-shadow: 0px 20px 50px rgba(79, 119, 255, 0.2);
+}
+.gallery__arrow--right img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.gallery__union {
+  position: absolute;
+  top: 420px;
+  left: -10px;
+  transform: translateX(-100%);
+}/*# sourceMappingURL=gallery.css.map */
