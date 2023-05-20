@@ -1,180 +1,433 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>page_blog_single_post_V1.0</title>
-    <!-- font GG -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Bootstrap -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
-      crossorigin="anonymous"
-    />
-    <!-- css -->
-    <link rel="stylesheet" href="../../scss/main/main.css" />
-  </head>
-  <body>
-    <div class="BG--ln">
-      <!-- Start header -->
-      <header class="header">
-        <div class="wrapper">
-          <div class="container">
-            <div class="main-nav">
-              <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="main-nav__logo">
-                  <a class="navbar-brand" href="../../index.html">
-                    <img
-                      src="../../img/home_coworking/logoHome.svg"
-                      alt="logo"
-                    />
-                    <span>Pollock</span>
-                  </a>
-                </div>
-                <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#navbarSupportedContent"
-                  aria-controls="navbarSupportedContent"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span class="navbar-toggler-icon"></span>
-                </button>
 
-                <div
-                  class="collapse navbar-collapse justify-content-end"
-                  id="navbarSupportedContent"
-                >
-                  <ul class="navbar-nav main-nav__list">
-                    <li class="nav-item main-nav__item">
-                      <a class="nav-link main-nav__link" href="../../index.html"
-                        >Home <span class="sr-only">(current)</span></a
-                      >
-                    </li>
-                    <li class="nav-item main-nav__item">
-                      <a class="nav-link main-nav__link" href="#">Services</a>
-                    </li>
-                    <li class="nav-item main-nav__item">
-                      <a class="nav-link main-nav__link" href="#">About</a>
-                    </li>
-                    <li class="nav-item main-nav__item">
-                      <a
-                        class="nav-link main-nav__link"
-                        href="../page_shop_V1.0/page_shop_V1.0.htm"
-                        >Page</a
-                      >
-                    </li>
-                    <li class="nav-item active main-nav__item">
-                      <a
-                        class="nav-link main-nav__link main-nav__select"
-                        href="#"
-                        >Blog</a
-                      >
-                    </li>
-                    <li class="nav-item main-nav__item">
-                      <a class="nav-link main-nav__link" href="#">Contact</a>
-                    </li>
-                  </ul>
-                  <ul class="navbar-nav align-items-center main-nav__search">
-                    <li class="nav-item main-nav__item">
-                      <a class="nav-link main-nav__link" href="#">
-                        <img
-                          src="../../img/home_coworking/Search.svg"
-                          alt="Search"
-                        />
-                      </a>
-                    </li>
-                    <li class="nav-item main-nav__item main-nav__select--card">
-                      <a class="nav-link main-nav__link" href="#">
-                        <img
-                          src="../../img/home_coworking/card.svg"
-                          alt="Search"
-                        />
-                      </a>
-                    </li>
-                    <li class="nav-item main-nav__item">
-                      <a
-                        class="btn my-sm-0 btn--big btn--blue main-nav__link"
-                        type="submit"
-                      >
-                        Search
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-            </div>
-          </div>
-        </div>
-      </header>
-      <!-- End header -->
-      <!-- Start Hero -->
-      <section class="hero">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>page_blog_single_post_V1.0</title>
+  <!-- font GG -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet" />
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+  <!-- css -->
+  <link rel="stylesheet" href="../../scss/main/main.css" />
+</head>
+
+<body>
+  <div class="BG--ln">
+    <!-- Start header -->
+    <header class="header">
+      <div class="wrapper">
         <div class="container">
-          <!-- <div class="hero-main"> -->
-          <div class="hero-main__content">
-            <div class="hero-main__header">Our Latest News</div>
-            <div class="hero-main__page">
-              <span class="hero-main__page-bold"> homepage </span>
-              <span class="hero-main__page-light">/ Blog</span>
-            </div>
+          <div class="main-nav">
+            <nav class="navbar navbar-expand-lg navbar-light">
+              <div class="main-nav__logo">
+                <a class="navbar-brand" href="../../index.html">
+                  <img src="../../img/home_coworking/logoHome.svg" alt="logo" />
+                  <span>Pollock</span>
+                </a>
+              </div>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav main-nav__list">
+                  <li class="nav-item main-nav__item">
+                    <a class="nav-link main-nav__link" href="../../index.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item main-nav__item">
+                    <a class="nav-link main-nav__link" href="#">Services</a>
+                  </li>
+                  <li class="nav-item main-nav__item">
+                    <a class="nav-link main-nav__link" href="#">About</a>
+                  </li>
+                  <li class="nav-item main-nav__item">
+                    <a class="nav-link main-nav__link" href="../page_shop_V1.0/page_shop_V1.0.htm">Page</a>
+                  </li>
+                  <li class="nav-item active main-nav__item">
+                    <a class="nav-link main-nav__link main-nav__select" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item main-nav__item">
+                    <a class="nav-link main-nav__link" href="#">Contact</a>
+                  </li>
+                </ul>
+                <ul class="navbar-nav align-items-center main-nav__search">
+                  <li class="nav-item main-nav__item">
+                    <a class="nav-link main-nav__link" href="#">
+                      <img src="../../img/home_coworking/Search.svg" alt="Search" />
+                    </a>
+                  </li>
+                  <li class="nav-item main-nav__item main-nav__select--card">
+                    <a class="nav-link main-nav__link" href="#">
+                      <img src="../../img/home_coworking/card.svg" alt="Search" />
+                    </a>
+                  </li>
+                  <li class="nav-item main-nav__item">
+                    <a class="btn my-sm-0 btn--big btn--blue main-nav__link" type="submit">
+                      Search
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
           </div>
-          <!-- </div> -->
         </div>
-      </section>
-      <!-- End Hero -->
-      <div class="BG--ln-tr"></div>
-      <div class="BG--ln-br"></div>
-      <div class="BG--ln-bl"></div>
-    </div>
-    <!-- Start cta -->
-    <section class="cta">
+      </div>
+    </header>
+    <!-- End header -->
+    <!-- Start Hero -->
+    <section class="hero">
       <div class="container">
-        <div class="cta-main">
-          <div class="cta__title">
-            <div class="global">
-              <div class="global__title--small">
-                Visit our blog! Follow the developments in the technology &
-                entrepreneur world
+        <!-- <div class="hero-main"> -->
+        <div class="hero-main__content">
+          <div class="hero-main__header">Our Latest News</div>
+          <div class="hero-main__page">
+            <span class="hero-main__page-bold"> homepage </span>
+            <span class="hero-main__page-light">/ Blog</span>
+          </div>
+        </div>
+        <!-- </div> -->
+      </div>
+    </section>
+    <!-- End Hero -->
+    <div class="BG--ln-tr"></div>
+    <div class="BG--ln-br"></div>
+    <div class="BG--ln-bl"></div>
+  </div>
+  <!-- Start blog single -->
+  <section class="blog-single">
+    <div class="container">
+      <div class="d-flex">
+        <div class="blog-single-main">
+<!-- content-main -->
+          <div class="blog-single-content-main">
+            <div class="section__header">
+              <div class="section__image">
+
+                <img src="../../img/page_blog/Img.png" alt="" />
+
               </div>
-              <div class="global__desc--big">
-                Subscribe to our newsletter
-                <span class="global__desc--big-green"> free </span>and stay
-                updated on the latest developments!
+            </div>
+            <div class="section__body">
+              <div class="section__sub">
+                <div class="section__sub--admin">
+                  <div class="section__sub--admin-avatar">
+                    <img src="../../img/page_blog/Written By Admin.png" alt="" />
+                  </div>
+                  <div class="section__sub--admin-name">
+                    Written By Admin
+                  </div>
+                </div>
+                <div class="section__sub--date">10 July, 2022</div>
+              </div>
+              <div class="section__title">
+                Vietnamese Fintech Startup Raises $25 M Series B Round From
+                Ospace, Vietnam Investments Group
+              </div>
+              <div class="section__des">
+                Vietnamese fintech startup Finhay has raised a $25 million
+                Series B round led by Singapore-based Openspace Ventures, an
+                early backer of Indonesia's GoTo Group and 30 Under 30 Asia
+                honoree Rexy Josh Dorado's Manila-based social media site
+                Kumu, and private firm Vietnam Investments Group.
+              </div>
+              <div class="section-content">
+                <div class="section-content__text">
+                  Other investors in the round included Singapore-based Insignia Ventures Partners, TVS, Headline,TNB Aura and IVC, Finhay said in a statement. Earlier this month, Insignia, whose other investments include GoTo and Singapore-based used-car unicorn Carro, led a pre-Series A funding
+                  round for Bluesheets, a financial data startup in Singapore.
+                </div>
+                <div class="section-content__image">
+                  <img src="../../img/page_blog_single/Img.jpg" alt="img">
+                </div>
+                <div class="section-content__text">
+                  The funds will be used to invest in business expansion, talent acquisition and technology develop- mend. Finlay also bought a securities brokerage, making it the only licensed digital investment platform in Vietnam, according to the startup.
+                </div>
+
+                <div class="section-content__text">
+                  Finlay was founded in 2017 by Huy Nghiem, a Vietnamese-Australian who quit his finance job in Australia. The startup operates a micro-investment platform for Millennials and has more than 2.7 million registered users in the country of almost 100
+                  million people. It recommends multiple micro-financial products including saving, investment and insurance based on the customer's personal information and risk assessment.
+                </div>
+                <div class="section-content__image">
+                  <img src="../../img/page_blog_single/Img (1).jpg" alt="img">
+                </div>
+                <div class="section-content__text">
+                  The customers can then start building their wealth through Finhay with as little as $3. Nghiem, who made the
+                  <span class="section-content__text-blue"> 30 Under 30 Asia list in 2020</span>
+                  , envisions Finhay as a one-stop solution where customers can manage their wealth seamlessly.
+                </div>
+                <div class="section-content__quote">
+                  "Finhay is already emerging as the clear frontrunner in Vietnam&#8217;s booming investment space," Jessica Huang Pouleur, partner at Openspace, said in the statement. "We believe a massive opportunity exists in Vietnam, which has
+                  an enterprising population hungry for the chance to invest smartly."
+                </div>
+                <div class="section-content__text">
+                  The Vietnamese economy has grown since 2012, posting 6% growth or higher every year through 2019 on the strength of export manufacturing and the spending power of its population. Growth fell to 2.9% in pandemic year 2020 and 2.6% last year. <br> <br>
+
+                  "A large number of people are now looking for ways to start investing - often for the first time, and we are exploring different ways to enable them," added Nghiem. "It&#8217;s such an important inflection point." <br> <br>
+
+                  Other rising fintech platforms in Vietnam include MoMo, which has raised money from the likes of Goldman Sachs, Warburg Pincus and Vietnam Investments Group, and Toss, the fintech superapp operated by South Korean billionaire Lee Seung-gun's Viva Republica.
+                </div>
+                <div class="section-content__footer">
+                  <div class=" d-flex justify-content-between">
+
+                    <div class="section-content__footer--tag">
+
+                      <div class="tags__item">fin-tech</div>
+                      <div class="tags__item">news</div>
+                      <div class="tags__item">technology</div>
+
+                    </div>
+                    <div class="section-content__footer--social-icon">
+
+                      <div class="twitter-icon"> <img src="../../img/page_blog_single/u_twitter.png" alt="twitter-icon"></div>
+                      <div class="facebook-icon"> <img src="../../img/page_blog_single/u_twitter.png" alt="facebook-icon"></div>
+                      <div class="linkedin-icon"> <img src="../../img/page_blog_single/u_linkedin.png" alt=""></div>
+
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="cta__button">
+<!--related-news  -->
+          <div class="blog-single-related-news">
+            <div class="related">
+              <div class="related__title">Related Articles</div>
+              <div class="related__list">
+                <div class="related__item">
+                  <div class="list__item--image">
+                    <img src="../../img/page_blog_single/Img (2).jpg" alt="">
+                  </div>
+                  <div class="list__item--desc">Start Your First Week Of A New Job Like A Boss</div>
+                </div>
+                <div class="related__item">
+                  <div class="list__item--image">
+                    <img src="../../img/page_blog_single/Img (3).jpg" alt="">
+                  </div>
+                  <div class="list__item--desc">Pioneering A New Twist On Coworking Models</div>
+                </div>
+                <div class="related__item">
+                  <div class="list__item--image">
+                    <img src="../../img/page_blog_single/Img (4).jpg" alt="">
+                  </div>
+                  <div class="list__item--desc">The White-Label Software Model In Fintech</div>
+                </div>
+              </div>
+            </div>
+          </div>
+<!--comment  -->
+          <div class="blog-single-comment">
+            <div class="comment">
+              <div class="comment__title">comment</div>
+              <div class="comment__item">
+                <div class="comment__image">
+                  <img src="../../img/page_blog_single/Martha Smith.png" alt="Martha Smith.png">
+                </div>
+                <div class="comment__info">
+                  <div class="comment__header">
+                    <span class="comment__header--name">Martha Smith</span>
+                    <span class="comment__header--date">10 July, 2022. 10:00</span>
+                  </div>
+                  <div class="comment__body">As Vietnam's fintech is young and promising, the market valuation has increased from US$ 0.7 to US$ 4.5 billion since 2016.</div>
+                  <div class="comment__footer">
+                    &#8624; Reply
+                  </div>
+                </div>
+              </div>
+
+              <div class="comment__item">
+                <div class="comment__image">
+                  <img src="../../img/page_blog_single/Ernest Smith.png" alt="Martha Smith.png">
+                </div>
+                <div class="comment__info">
+                  <div class="comment__header">
+                    <span class="comment__header--name">Ernest Smith</span>
+                    <span class="comment__header--date">10 July, 2022. 10:00</span>
+                  </div>
+                  <div class="comment__body">
+                    In the near future, the government is going to become more involved in fintech, evidenced by the increasing number of favorable legislation for financial technologies.
+                  </div>
+                  <div class="comment__footer">
+                    &#8624; Reply
+                  </div>
+                </div>
+              </div>
+              <div class="comment__item">
+                <div class="comment__entry"></div>
+                <div class="comment__image">
+                  <img src="../../img/page_blog_single/Vincent Smith.png" alt="Martha Smith.png">
+                </div>
+                <div class="comment__info">
+                  <div class="comment__header">
+                    <span class="comment__header--name">Ernest Smith</span>
+                    <span class="comment__header--date">10 July, 2022. 10:00</span>
+                  </div>
+                  <div class="comment__body">
+                    The fintech industry in Southeast Asia continues to experience tremendous growth compared to other parts of the world.
+                  </div>
+                  <div class="comment__footer">
+                    &#8624; Reply
+                  </div>
+                </div>
+              </div>
+              <div class="write-a-comment">
+                <div class="write-a-comment__title">Write a Comment</div>
+                <div class="write-a-comment__info">
+                  <form class="form" action="#">
+                    <div class="write-a-comment__envelop">
+                    <input class="write-a-comment__info--address" type="text" value="Mame">
+                    <input class="write-a-comment__info--address"  type="text" value="Mail">
+                    <input class="write-a-comment__info--address"  type="text" value="Website">
+                  </div>
+                    <input class="write-a-comment__info--enter"  type="text" value="Enter Comment">
+                  </form>
+                </div>
+                <div class="write-a-comment__enter-comment"></div>
+                <div class="write-a-comment__submit">
+                  <a class="btn btn--big btn--blue" href="#">submit</a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="blog-single-extra">
+          <div class="blog-extra blog-extra--title">
+            <div class="search">
+              <div class="search__title blog-extra--title">Search</div>
+              <div class="blog-extra__input">
+                <form class="searchform" action="#">
+                  <label>
+                    <input type="search" class="field" name="s" placeholder="Enter email" />
+                  </label>
+                  <button type="submit" class="searchform-submit">
+                    <span class="screen-reader-text"> &#8592</span>
+                  </button>
+                </form>
+              </div>
+            </div>
+            <div class="latest">
+              <div class="latest__title blog-extra--title">Latest News</div>
+              <div class="latest__item">
+                <div class="latest__item--img">
+                  <img src="../../img/page_blog/Latest News-1.jpg" alt="">
+                </div>
+                <div class="latest__item--content">Start Your First Week Of A New Job Like A Boss</div>
+              </div>
+
+              <div class="latest__item">
+                <div class="latest__item--img">
+                  <img src="../../img/page_blog/Latest News-2.jpg" alt="">
+                </div>
+                <div class="latest__item--content">Pioneering A New Twist On Coworking Models</div>
+              </div>
+
+              <div class="latest__item">
+                <div class="latest__item--img">
+                  <img src="../../img/page_blog/Latest News-3.jpg" alt="">
+                </div>
+                <div class="latest__item--content">The White-Label Software Model In Fintech</div>
+              </div>
+            </div>
+            <div class="categorys">
+              <div class="categorys__title blog-extra--title">Categories</div>
+              <div class="blog-extra__input">
+                <form class="searchform" action="#">
+                  <label>
+                    <input type="search" class="field" name="s" placeholder="Enter email" />
+                  </label>
+                  <button type="submit" class="searchform-submit">
+                    <span class="screen-reader-text"> &#8744;</span>
+                  </button>
+                </form>
+              </div>
+            </div>
+            <div class="tags">
+              <div class="tags__title blog-extra--title">Tags</div>
+              <div class="tags__list">
+                <div class="tags__item">api</div>
+                <div class="tags__item">apps</div>
+                <div class="tags__item">branding</div>
+                <div class="tags__item">design</div>
+                <div class="tags__item">development</div>
+                <div class="tags__item">devops</div>
+                <div class="tags__item">email</div>
+                <div class="tags__item">fin-tech</div>
+                <div class="tags__item">news</div>
+                <div class="tags__item">technology</div>
+                <div class="tags__item">shop</div>
+                <div class="tags__item">startup</div>
+                <div class="tags__item">wordpress</div>
+              </div>
+            </div>
+            <div class="archive">
+              <div class="archive__title blog-extra--title">Archive</div>
+              <div class="blog-extra__input">
+                <form class="searchform" action="#">
+                  <label>
+                    <input type="search" class="field" name="s" placeholder="Enter email" />
+                  </label>
+                  <button type="submit" class="searchform-submit">
+                    <span class="screen-reader-text"> &#8744;</span>
+                  </button>
+                </form>
+              </div>
+            </div>
+            <div class="sub">
+              <div class="sub__main">
+                <div class="sub__main--surround">
+                  <div class="sub__title">Subscribe To Our Newsletter Today</div>
+                  <div class="sub__button">
+                    <button class="btn btn--big">Subscribe</button>
+                  </div>
+                </div>
+              </div>
+              <div class="sub__opacity">
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End blog single -->
+  <!-- Start cta -->
+  <section class="cta">
+    <div class="container">
+      <div class="cta-main">
+        <div class="cta__title">
+          <div class="global">
+            <div class="global__title--small">
+              Visit our blog! Follow the developments in the technology &
+              entrepreneur world
+            </div>
+            <div class="global__desc--big">
+              Subscribe to our newsletter
+              <span class="global__desc--big-green"> free </span>and stay
+              updated on the latest developments!
+            </div>
+          </div>
+        </div>
+        <div class="cta__button">
+          <div class="cta__form">
             <form action="">
               <div class="row align-items-center">
-                <div class="col-8 pr-3">
-                  <div class="form-outline mb-4">
-                    <input
-                      type="email"
-                      id="form2Example1"
-                      class="form-control"
-                      value="Enter email"
-                    />
+                <div class="col-8">
+                  <div class="form-outline">
+                    <input type="email" id="form2Example1" class="form-control" value="Enter email" />
                   </div>
                 </div>
                 <div class="col-4">
-                  <button type="button" class="btn btn--blue btn--big mb-4">
+                  <button type="button" class="btn btn--blue btn--big">
                     Submit
                   </button>
                 </div>
@@ -183,188 +436,159 @@
           </div>
         </div>
       </div>
-      <div class="cta__bg BG--Purple"></div>
-    </section>
-    <!-- End cta -->
-    <!-- Start footer -->
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-main">
-          <div class="row">
-            <div class="col-8">
-              <div class="footer__link">
-                <div class="row">
-                  <div class="col-3">
-                    <div class="footer__logo">
-                      <img
-                        src="../../img/home_coworking/logoHome.svg"
-                        alt="logo"
-                      />
-                    </div>
+    </div>
+    <div class="cta__bg BG--Purple"></div>
+  </section>
+  <!-- End cta -->
+  <!-- Start footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-main">
+        <div class="row">
+          <div class="col-8">
+            <div class="footer__link">
+              <div class="row">
+                <div class="col-3">
+                  <div class="footer__logo">
+                    <img src="../../img/home_coworking/logoHome.svg" alt="logo" />
                   </div>
+                </div>
 
-                  <div class="col-3">
-                    <div class="footer footer--item">
-                      <div class="footer__list footer__list--header">
-                        Company
-                      </div>
-                      <div class="footer__list footer__list--body">
-                        <ul>
-                          <li>
-                            <a href="#">About</a>
-                          </li>
-                          <li>
-                            <a href="#">Work</a>
-                          </li>
-                          <li><a href="#">Careers</a></li>
-                          <li>
-                            <a href="#">Pricing</a>
-                          </li>
-                          <li>
-                            <a href="#">Blog</a>
-                          </li>
-                        </ul>
-                      </div>
+                <div class="col-3">
+                  <div class="footer footer--item">
+                    <div class="footer__list footer__list--header">
+                      Company
                     </div>
-                  </div>
-
-                  <div class="col-3">
-                    <div class="footer footer--item">
-                      <div class="footer__list footer__list--header">
-                        Services
-                      </div>
-                      <div class="footer__list footer__list--body">
-                        <ul>
-                          <li>
-                            <a href="#">Branding</a>
-                          </li>
-                          <li>
-                            <a href="#">Websites</a>
-                          </li>
-                          <li>
-                            <a href="#">Development</a>
-                          </li>
-                          <li>
-                            <a href="#">Strategy</a>
-                          </li>
-                          <li>
-                            <a href="#">Platforms</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-3">
-                    <div class="footer footer--item">
-                      <div class="footer__list footer__list--header">
-                        Contact
-                      </div>
-                      <div class="footer__list footer__list--body">
-                        <ul>
-                          <li>
-                            <a href="#">Help Desk</a>
-                          </li>
-                          <li>
-                            <a href="#">Docs</a>
-                          </li>
-                          <li>
-                            <a href="#">Open a Ticket</a>
-                          </li>
-                          <li>
-                            <a href="#">Chat</a>
-                          </li>
-                          <li>
-                            <a href="#">Forum</a>
-                          </li>
-                        </ul>
-                      </div>
+                    <div class="footer__list footer__list--body">
+                      <ul>
+                        <li>
+                          <a href="#">About</a>
+                        </li>
+                        <li>
+                          <a href="#">Work</a>
+                        </li>
+                        <li><a href="#">Careers</a></li>
+                        <li>
+                          <a href="#">Pricing</a>
+                        </li>
+                        <li>
+                          <a href="#">Blog</a>
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div class="col-4">
-              <div class="footer__sub">
-                <div class="footer__sub--title">Newsletter</div>
-                <div class="footer__sub--desc">
-                  Subscribe to our newsletter to keep up to date on our
-                  marketing, website, design services, and tips.
-                </div>
-                <div class="footer__sub--email">
-                  <form action="">
-                    <div class="row align-items-center">
-                      <div class="col-8 pr-3">
-                        <div class="form-outline mb-4">
-                          <input
-                            type="email"
-                            id="form2Example1"
-                            class="form-control"
-                            value="Enter email"
-                          />
-                        </div>
-                      </div>
-                      <div class="col-4">
-                        <button
-                          type="button"
-                          class="btn btn--blue btn--big mb-4"
-                        >
-                          Submit
-                        </button>
-                      </div>
+
+                <div class="col-3">
+                  <div class="footer footer--item">
+                    <div class="footer__list footer__list--header">
+                      Services
                     </div>
-                  </form>
+                    <div class="footer__list footer__list--body">
+                      <ul>
+                        <li>
+                          <a href="#">Branding</a>
+                        </li>
+                        <li>
+                          <a href="#">Websites</a>
+                        </li>
+                        <li>
+                          <a href="#">Development</a>
+                        </li>
+                        <li>
+                          <a href="#">Strategy</a>
+                        </li>
+                        <li>
+                          <a href="#">Platforms</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
-                <div class="footer__sub--text">
-                  We hate spam as much as you do. We will never, ever send you
-                  such emails.
+
+                <div class="col-3">
+                  <div class="footer footer--item">
+                    <div class="footer__list footer__list--header">
+                      Contact
+                    </div>
+                    <div class="footer__list footer__list--body">
+                      <ul>
+                        <li>
+                          <a href="#">Help Desk</a>
+                        </li>
+                        <li>
+                          <a href="#">Docs</a>
+                        </li>
+                        <li>
+                          <a href="#">Open a Ticket</a>
+                        </li>
+                        <li>
+                          <a href="#">Chat</a>
+                        </li>
+                        <li>
+                          <a href="#">Forum</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="footer-end">
-            <div class="container">
-              <div class="footer_line"></div>
+          <div class="col-4">
+            <div class="footer__sub">
+              <div class="footer__sub--title">Newsletter</div>
+              <div class="footer__sub--desc">
+                Subscribe to our newsletter to keep up to date on our
+                marketing, website, design services, and tips.
+              </div>
+              <div class="footer__sub--email">
+                <form action="">
+                  <div class="row align-items-center">
+                    <div class="col-8 pr-3">
+                      <div class="form-outline mb-4">
+                        <input type="email" id="form2Example1" class="form-control" value="Enter email" />
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <button type="button" class="btn btn--blue btn--big mb-4">
+                        Submit
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="footer__sub--text">
+                We hate spam as much as you do. We will never, ever send you
+                such emails.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-end">
+          <div class="container">
+            <div class="footer_line"></div>
 
-              <div class="row justify-content-between">
-                <div class="footer-end--desc">
-                  © 2022 Pollock LLC. All Rights Reserved. Terms & Conditions.
-                  Privacy Policy.
-                </div>
-                <div class="footer-end--icon">
-                  <img
-                    class="mr-4"
-                    src="../../img/home_coworking/ft-fb.svg"
-                    alt="fb"
-                  />
-                  <img
-                    class="mr-4"
-                    src="../../img/home_coworking/ft-tw.svg"
-                    alt="fb"
-                  />
-                  <img
-                    class="mr-4"
-                    src="../../img/home_coworking/ft-lin.svg"
-                    alt="fb"
-                  />
-                </div>
+            <div class="row justify-content-between">
+              <div class="footer-end--desc">
+                © 2022 Pollock LLC. All Rights Reserved. Terms & Conditions.
+                Privacy Policy.
+              </div>
+              <div class="footer-end--icon">
+                <img class="mr-4" src="../../img/home_coworking/ft-fb.svg" alt="fb" />
+                <img class="mr-4" src="../../img/home_coworking/ft-tw.svg" alt="fb" />
+                <img class="mr-4" src="../../img/home_coworking/ft-lin.svg" alt="fb" />
               </div>
             </div>
           </div>
         </div>
       </div>
-    </footer>
-    <!-- End footer -->
-    <!-- Bootstrap -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    </div>
+  </footer>
+  <!-- End footer -->
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+
 </html>

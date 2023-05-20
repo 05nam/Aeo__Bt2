@@ -1,0 +1,267 @@
+.blog-single-main {
+  max-width: 835px;
+  width: 100%;
+}
+
+.d-flex {
+  gap: 65px;
+}
+
+.section-content {
+  padding-top: 50px;
+}
+
+.section-content__text {
+  padding-bottom: 40px;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #7b88a8;
+}
+
+.section-content__text-blue {
+  color: #4f77ff;
+}
+
+.section-content__quote {
+  background: #f8fafc;
+  border-radius: 5px;
+  padding: 30px 50px 36px 55px;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.3px;
+  color: #2d3958;
+}
+
+.section-content__image {
+  margin-bottom: 40px;
+  max-width: 755px;
+  max-height: 500px;
+}
+.section-content__image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.cta__form {
+  max-width: 370px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.section-content__footer {
+  margin-top: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(97, 119, 152, 0.2);
+}
+
+.section-content__footer--tag {
+  display: flex;
+  gap: 15px;
+}
+
+.section-content__footer--social-icon {
+  display: flex;
+  gap: 15px;
+}
+
+.blog-single-related-news {
+  padding-top: 50px;
+}
+
+.related {
+  padding: 20px 40px 53px 40px;
+  background: #f8fafc;
+  border-radius: 5px;
+}
+
+.related__title {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.4px;
+  color: #2d3958;
+  padding-bottom: 30px;
+}
+
+.related__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.list__item--image {
+  padding-bottom: 20px;
+}
+.list__item--image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.list__item--desc {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.3px;
+  color: #2d3958;
+}
+
+.blog-single-comment {
+  padding-top: 48px;
+}
+
+.comment {
+  padding: 42px 30px 50px 30px;
+  border: 1px solid rgba(97, 119, 152, 0.2);
+}
+
+.comment__title {
+  padding-bottom: 30px;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.4px;
+  color: #2d3958;
+  border-bottom: 1px solid rgba(97, 119, 152, 0.2);
+}
+
+.comment__item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  gap: 30px;
+  border-bottom: 1px solid rgba(97, 119, 152, 0.2);
+}
+
+.comment__image img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.comment__header {
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.comment__header--name {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #2d3958;
+}
+
+.comment__header--date {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: right;
+  letter-spacing: 0.4px;
+  color: #7b88a8;
+  opacity: 0.7;
+}
+
+.comment__body {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #7b88a8;
+  padding-bottom: 43px;
+}
+
+.comment__footer {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.3px;
+  text-transform: uppercase;
+  color: #4f77ff;
+}
+
+.comment__entry {
+  max-width: 180px;
+  width: 100%;
+}
+
+.write-a-comment {
+  padding-top: 40px;
+}
+
+.write-a-comment__title {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.4px;
+  color: #2d3958;
+}
+
+.write-a-comment__info {
+  padding-top: 30px;
+}
+
+.form {
+  font-family: "DM Sans", sans-serif;
+}
+
+.write-a-comment__envelop {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+
+.write-a-comment__info--address {
+  width: 245px;
+  height: 48px;
+  border: 1px solid #e7e5ea;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #7b88a8;
+}
+
+.write-a-comment__info--enter {
+  max-width: 775px;
+  height: 170px;
+  width: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #7b88a8;
+  border: 1px solid #e7e5ea;
+  border-radius: 5px;
+}
+
+.write-a-comment__submit {
+  padding-top: 20px;
+}/*# sourceMappingURL=page_blog_single_post_V1.0.css.map */
