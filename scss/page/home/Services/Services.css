@@ -66,6 +66,10 @@
   padding-top: 42px;
 }
 
+.service__item:hover {
+  box-shadow: 0px 20px 50px rgba(79, 119, 255, 0.2);
+}
+
 .services--content {
   padding-top: 38px;
 }
@@ -73,10 +77,6 @@
 .services__list--desc {
   padding-top: 20px;
   padding-bottom: 65px;
-}
-
-.service--shadow {
-  box-shadow: 0px 20px 50px rgba(79, 119, 255, 0.2);
 }
 
 .services__list--title {

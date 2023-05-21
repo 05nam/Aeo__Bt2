@@ -167,11 +167,11 @@
             <div class="row">
               <div class="col-md-4">
                 <div class="service__item">
-                  <div class="services services--title">
+                  <div class="services--title">
                     <div class="service--bg-Purple"></div>
                     <img src="./img/home_coworking/Private Office.svg" alt="" />
                   </div>
-                  <div class="services services--content">
+                  <div class="services--content">
                     <div class="services__list--title">Private Office</div>
                     <div class="services__list--desc">
                       Our coworking spaces are designed with collaboration in
@@ -181,12 +181,12 @@
                 </div>
               </div>
               <div class="col-md-4">
-                <div class="service__item service--shadow">
-                  <div class="services services--title">
+                <div class="service__item">
+                  <div class="services--title">
                     <div class="service--bg-blue"></div>
                     <img src="./img/home_coworking/Dedicated Desk.svg" alt="" />
                   </div>
-                  <div class="services services--content">
+                  <div class="services--content">
                     <div class="services__list--title">Dedicated Desk</div>
                     <div class="services__list--desc">
                       Our coworking spaces are designed with collaboration in
@@ -197,11 +197,11 @@
               </div>
               <div class="col-md-4">
                 <div class="service__item">
-                  <div class="services services--title">
+                  <div class="services--title">
                     <div class="service--bg-orange"></div>
                     <img src="./img/home_coworking/Hot Desk.svg" alt="" />
                   </div>
-                  <div class="services services--content">
+                  <div class="services--content">
                     <div class="services__list--title">Hot Desk</div>
                     <div class="services__list--desc">
                       Our coworking spaces are designed with collaboration in
@@ -366,18 +366,20 @@
                   /></span>
                 </div>
                 <div class="gallery__arrow d-flex">
-                  <div class="gallery__arrow--left">
+                  <div class="gallery__arrow--left" id="arrow--left">
                     <a href="#">
                       <img
+                        id="img--left"
                         src="./img/home_coworking/arrow-left.svg"
                         alt="arrow-left"
                       />
                     </a>
                   </div>
-                  <div class="gallery__arrow--right">
+                  <div class="gallery__arrow--right" id="arrow--right">
                     <a href="#">
                       <img
-                        src="./img/home_coworking/arrow-right.svg"
+                        id="img--right"
+                        src="./img/home_coworking/arrow1.svg"
                         alt="arrow-right"
                       />
                     </a>
@@ -477,48 +479,42 @@
               <span class="portfolio__title--bg"> 3,000 locations </span>
               globally we have offices, and meeting rooms in every major city
             </div>
+            <!-- portfolio__image -->
 
             <div class="portfolio portfolio__image">
-              <div class="row">
-                <div class="col-7">
-                  <div class="portfolio__top portfolio__top--left">
-                    <img src="./img/home_coworking/Portfolio-1.png" alt="" />
-                    <p class="portfolio__text">New York</p>
-                    <div class="portfolio__union">
-                      <img
-                        src="./img/home_coworking/Union-review.png"
-                        alt="Union"
-                      />
-                    </div>
-                  </div>
+              <div class="portfolio__item">
+                <div class="portfolio__item--image">
+                  <img src="./img/home_coworking/Portfolio-1.png" alt="" />
                 </div>
-                <div class="col-5">
-                  <div class="portfolio__top portfolio__top--right">
-                    <img src="./img/home_coworking/Portfolio-4.png" alt="" />
-                    <p class="portfolio__text">Miami</p>
-                  </div>
+                <div class="portfolio__item--text portfolio__text">
+                  New York
+                </div>
+              </div>
+              <div class="portfolio__item">
+                <div class="portfolio__item--image">
+                  <img src="./img/home_coworking/Portfolio-4.png" alt="" />
+                </div>
+                <div class="portfolio__item--text portfolio__text">Miami</div>
+              </div>
+
+              <div class="portfolio__item">
+                <div class="portfolio__item--image">
+                  <img src="./img/home_coworking/Portfolio-3.png" alt="" />
+                </div>
+                <div class="portfolio__item--text portfolio__text">
+                  San Francisco
+                </div>
+              </div>
+              <div class="portfolio__item">
+                <div class="portfolio__item--image">
+                  <img src="./img/home_coworking/Portfolio-2.png" alt="" />
+                </div>
+                <div class="portfolio__item--text portfolio__text">
+                  Los Angeles
                 </div>
               </div>
             </div>
             <div class="portfolio__top-bg"></div>
-          </div>
-          <div class="portfolio__bot">
-            <div class="portfolio portfolio__image">
-              <div class="row">
-                <div class="col-5">
-                  <div class="portfolio__top portfolio__top--right">
-                    <img src="./img/home_coworking/Portfolio-3.png" alt="" />
-                    <p class="portfolio__text">San Francisco</p>
-                  </div>
-                </div>
-                <div class="col-7">
-                  <div class="portfolio__top portfolio__top--left">
-                    <img src="./img/home_coworking/Portfolio-2.png" alt="" />
-                    <p class="portfolio__text">Los Angeles</p>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -998,5 +994,7 @@
       integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
       crossorigin="anonymous"
     ></script>
+    <!-- index -->
+    <script src="./index.js"></script>
   </body>
 </html>

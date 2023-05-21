@@ -1,8 +1,13 @@
 .pricing-main {
   background-color: #f7f5f1;
   padding-top: 120px;
-  padding-bottom: 430px;
+  padding-bottom: 493px;
   position: relative;
+}
+
+.pricing__time {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .pricing__time--mon,

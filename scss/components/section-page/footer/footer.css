@@ -75,6 +75,11 @@
   letter-spacing: -1px;
   /* Text/Text White */
   color: #ffffff;
+  padding-bottom: 20px;
+}
+
+.footer__sub--desc {
+  padding-bottom: 25px;
 }
 
 .footer__sub--desc,

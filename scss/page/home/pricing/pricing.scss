@@ -4,11 +4,15 @@
 .pricing-main {
   background-color: $BG_Light_Alt;
   padding-top: 120px;
-  padding-bottom: 430px;
+  padding-bottom: 493px;
   position: relative;
 }
 
 //time
+.pricing__time {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 .pricing__time--mon,
 .pricing__time--year {
   font-family: $font-DMSans;
