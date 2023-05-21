@@ -2,7 +2,7 @@
   padding-top: 120px;
 }
 
-.services .services--title {
+.services .services__title-icon {
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -11,12 +11,12 @@
   height: 90px;
   border-radius: 100rem;
 }
-.services .services--title img {
+.services .services__title-icon img {
   width: 50px;
   height: 50px;
 }
 
-.services--title {
+.services__title-icon {
   position: relative;
 }
 
@@ -70,7 +70,7 @@
   box-shadow: 0px 20px 50px rgba(79, 119, 255, 0.2);
 }
 
-.services--content {
+.services__content {
   padding-top: 38px;
 }
 

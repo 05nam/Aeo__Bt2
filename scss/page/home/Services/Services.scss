@@ -4,7 +4,7 @@
 .services-main {
   padding-top: 120px;
 }
-.services .services--title {
+.services .services__title-icon {
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -19,7 +19,7 @@
   }
 }
 
-.services--title {
+.services__title-icon {
   position: relative;
 }
 .service--bg-Purple {
@@ -68,7 +68,7 @@
 .service__item:hover {
   box-shadow: 0px 20px 50px rgba(79, 119, 255, 0.2);
 }
-.services--content {
+.services__content {
   padding-top: 38px;
 }
 .services__list--desc {
