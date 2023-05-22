@@ -25,8 +25,8 @@
   }
 }
 //item
-.reviews__item {
-  //   background-color: white;
+.reviews--bg:hover {
+  box-shadow: 0px 20px 50px rgba(79, 119, 255, 0.2);
 }
 //name
 .reviews__item--name {
@@ -41,7 +41,7 @@
   padding-bottom: 5px;
   padding-top: 10px;
 }
-//localtion
+//location
 .reviews__item--location {
   font-family: $font-DMSans;
   font-style: normal;

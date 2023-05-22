@@ -195,6 +195,12 @@
   display: flex;
   padding: 0 286px;
 }
+.menu-desc__item {
+  a {
+    text-decoration: none;
+    color: $Text_Heading;
+  }
+}
 
 .description__content {
   gap: 30px;

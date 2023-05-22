@@ -209,6 +209,11 @@
   padding: 0 286px;
 }
 
+.menu-desc__item a {
+  text-decoration: none;
+  color: #2d3958;
+}
+
 .description__content {
   gap: 30px;
   padding-top: 40px;

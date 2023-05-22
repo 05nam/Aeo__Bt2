@@ -1,0 +1,316 @@
+.page-portfolio {
+  padding: 120px 140px 120px 0;
+}
+
+.page-portfolio__title {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 72px;
+  text-align: center;
+  letter-spacing: -2px;
+  color: #2d3958;
+  padding-bottom: 90px;
+}
+
+.page-portfolio__image {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr 2fr;
+  grid-gap: 30px 30px;
+  grid-template-areas: "h1 h2 h3" "h1 h5 h3" "h4 h5 h6";
+}
+
+.page-portfolio__item {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+
+.page-portfolio__item:first-child {
+  grid-area: h1;
+}
+
+.page-portfolio__item:nth-child(3) {
+  grid-area: h3;
+}
+
+.page-portfolio__item:nth-child(5) {
+  grid-area: h5;
+}
+
+.page-portfolio__item:nth-child(6) {
+  grid-area: h6;
+}
+
+.page-portfolio__button {
+  padding-top: 70px;
+}
+
+.btn--big {
+  background: #e7e5ea;
+  color: #7b88a8;
+}
+
+.portfolio-reviews {
+  background-color: #f8fafc;
+  padding: 120px 0;
+}
+
+.reviews__item--strart {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #2d3958;
+}
+
+.reviews__list {
+  position: relative;
+}
+
+.portfolio-reviews__button {
+  background-color: black;
+  width: 110px;
+  height: 110px;
+  border-radius: 100rem;
+  cursor: pointer;
+  position: absolute;
+  top: -137px;
+  right: 0;
+}
+
+.portfolio-reviews__button:hover {
+  box-shadow: 0px 20px 50px rgba(79, 119, 255, 0.2);
+}
+
+.slick--arrow {
+  top: 0px;
+}
+
+.slick-prev {
+  position: absolute;
+  transform: translateY(-50%);
+  background-color: black;
+  color: white;
+  border: none;
+  z-index: 2;
+  right: 28px;
+  top: -82px;
+}
+
+.slick-next {
+  position: absolute;
+  right: 56px;
+  top: -82px;
+  transform: translateY(-50%);
+  border: none;
+  background-color: black;
+  color: white;
+  z-index: 2;
+}
+
+.recent-project__header {
+  padding-bottom: 75px;
+}
+
+.recent-project {
+  padding: 120px 0;
+}
+
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-title__title {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -2px;
+  color: #2d3958;
+}
+
+.project-title__directional {
+  display: flex;
+  justify-content: space-between;
+}
+.project-title__directional a {
+  text-decoration: none;
+}
+
+.project-title__border {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e7e5ea;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.project-title__border a {
+  color: black;
+}
+
+.project-title__border:hover {
+  background-color: #4f77ff;
+  transition: 2s;
+}
+.project-title__border:hover a {
+  color: #ffffff;
+}
+
+.project-title__directional--left {
+  width: 56px;
+  height: 40px;
+  margin-right: 12px;
+  color: #ffffff;
+}
+
+.project-title__directional--right {
+  width: 56px;
+  height: 40px;
+}
+
+.recent-project__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0 30px;
+}
+
+.recent-project__item:first-child {
+  background-image: url(../../../img/page_portfolio/item1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 370px;
+}
+
+.recent-project__item:nth-child(2) {
+  background-image: url(../../../img/page_portfolio/item2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 370px;
+}
+
+.recent-project__item:last-child {
+  background-image: url(../../../img/page_portfolio/item3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 370px;
+}
+
+.recent-project__title {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #ffffff;
+  padding-top: 50px;
+  padding-right: 35px;
+  padding-left: 35px;
+}
+
+.recent-project__position {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  color: #e7e5ea;
+  padding-top: 20px;
+  padding-right: 35px;
+  padding-left: 35px;
+}
+
+.portfolio-blog {
+  background-color: #f8fafc;
+  padding: 120px 0;
+}
+
+.portfolio-blog__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0 30px;
+}
+
+.card-portfolio__title {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: -1px;
+  color: #2d3958;
+  padding-top: 20px;
+}
+
+.card-portfolio__desc {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.3px;
+  color: #7b88a8;
+  padding-top: 30px;
+}
+
+.card-portfolio__info {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.3px;
+  color: #7b88a8;
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.card-portfolio__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.card-portfolio__item--icon {
+  margin-right: 5px;
+}
+
+.unit {
+  border-bottom: 1px solid #e7e5ea;
+  padding-bottom: 25px;
+}
+
+.unit:nth-child(2),
+.unit:last-child {
+  padding-top: 25px;
+}
+
+.unit__content {
+  display: flex;
+  padding-bottom: 5px;
+}
+
+.unit__title {
+  padding-top: 0;
+}/*# sourceMappingURL=page_portfolio_V1.0.css.map */
