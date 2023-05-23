@@ -11,6 +11,7 @@
   padding-top: 80px;
   padding-bottom: 120px;
 }
+
 .logo__title {
   font-family: $font-Outfit;
   font-style: normal;
@@ -25,4 +26,30 @@
   /* Text color/black */
 
   color: $Text_black;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .logo {
+    .logo-main {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .logo {
+    .logo-main {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }
+  .logo__list--item {
+    width: 100%;
+  }
+}
+@media (max-width: 575px) {
+  .logo-main {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }

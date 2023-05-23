@@ -121,3 +121,41 @@
 .footer-end--icon {
   padding-top: 40px;
 }
+//-------------------responsive-------------------
+// min-width: 768px)
+@media (min-width: 768px) and (max-width: 991px) {
+  .footer__sub--email {
+    .btn--big {
+      padding: 12px 25px;
+    }
+  }
+}
+
+// min-width: 576px)
+@media (min-width: 576px) and (max-width: 767px) {
+  .footer__link {
+    padding-bottom: 25px;
+    .col-sm-6 {
+      display: none;
+    }
+  }
+
+  .footer-end {
+    padding-top: 30px;
+  }
+}
+
+// max-width: 576px)
+@media (max-width: 576px) {
+  .footer-main {
+    padding-top: 40px;
+  }
+  .footer__link {
+    .col-12 {
+      text-align: center;
+    }
+  }
+  .footer__sub {
+    text-align: center;
+  }
+}

@@ -16,4 +16,11 @@
 
 .cta__button {
   text-align: center;
+}
+
+@media (max-width: 767px) {
+  .cta .cta__title .global {
+    padding-right: 0;
+    padding-left: 0;
+  }
 }/*# sourceMappingURL=cta.css.map */

@@ -117,4 +117,32 @@
 
 .footer-end--icon {
   padding-top: 40px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .footer__sub--email .btn--big {
+    padding: 12px 25px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .footer__link {
+    padding-bottom: 25px;
+  }
+  .footer__link .col-sm-6 {
+    display: none;
+  }
+  .footer-end {
+    padding-top: 30px;
+  }
+}
+@media (max-width: 576px) {
+  .footer-main {
+    padding-top: 40px;
+  }
+  .footer__link .col-12 {
+    text-align: center;
+  }
+  .footer__sub {
+    text-align: center;
+  }
 }/*# sourceMappingURL=footer.css.map */
