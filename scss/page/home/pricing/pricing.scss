@@ -4,14 +4,16 @@
 .pricing-main {
   background-color: $BG_Light_Alt;
   padding-top: 120px;
-  padding-bottom: 493px;
+  padding-bottom: 446px;
   position: relative;
 }
 
 //time
 .pricing__time {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  // padding-top: 100px;
+  // padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
 }
 .pricing__time--mon,
 .pricing__time--year {
@@ -67,27 +69,26 @@
 //list
 .pricing__list {
   position: absolute;
-  bottom: -330px;
+  bottom: -243px;
 
   .pricing__union {
     position: absolute;
     top: 10px;
-    right: 10px;
+    right: -10px;
     transform: translateX(100%);
   }
 }
-.cards {
-  flex-wrap: wrap;
-
-  .card__item {
-    margin-right: 30px;
-    max-width: calc(50% - 30px);
+.pricing__list {
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0 30px;
   }
 }
 
 .card__bg {
   background: #ffffff;
-  padding-top: 35px;
+  padding-top: 34px;
   border: 1px solid #e7e5ea;
   border-radius: 10px;
 }
@@ -127,7 +128,10 @@
   line-height: 26px;
   text-align: center;
   color: $Black-200;
-  padding: 10px 124px 40px 124px;
+  padding: 0px 124px 0px 124px;
+  max-height: 45px;
+  margin-top: 10px;
+  margin-bottom: 40px;
 }
 .card--list {
   padding-bottom: 58px;
@@ -135,6 +139,11 @@
   //ul
   ul {
     padding-bottom: 15px;
+  }
+}
+.card--list {
+  ul:last-child {
+    padding-bottom: 0;
   }
 }
 
@@ -167,7 +176,7 @@
 .card__item--button {
   background: #4f77ff;
   border-radius: 0px 0px 10px 10px;
-  padding: 18px 147px;
+  padding: 5px 147px;
   text-align: center;
   .btn--blue {
     background: #4f77ff;
