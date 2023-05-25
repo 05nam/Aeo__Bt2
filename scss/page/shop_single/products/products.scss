@@ -142,6 +142,9 @@
 .cart__button {
   margin-left: 10px;
 }
+.menu-desc {
+  display: flex;
+}
 
 .content__body--contact {
   display: flex;
@@ -191,10 +194,7 @@
   color: $Text_Heading;
   padding-bottom: 30px;
 }
-.menu-desc {
-  display: flex;
-  padding: 0 286px;
-}
+
 .menu-desc__item {
   a {
     text-decoration: none;
@@ -216,4 +216,26 @@
   font-size: 16px;
   line-height: 26px;
   color: $Text_text;
+}
+
+@media (min-width: 1920px) {
+  .menu-desc {
+    padding: 0 286px;
+  }
+}
+@media (min-width: 567px) and (max-width: 768px) {
+  .description__menu {
+    font-size: 16px;
+  }
+}
+@media (max-width: 566px) {
+  .menu-desc {
+    flex-direction: column;
+  }
+  .menu-desc__item {
+    text-align: center;
+  }
+  .products__subject {
+    padding-bottom: 30px;
+  }
 }

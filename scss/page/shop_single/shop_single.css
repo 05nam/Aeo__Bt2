@@ -79,4 +79,10 @@
   line-height: 26px;
   text-align: center;
   color: #7b88a8;
+}
+
+@media (max-width: 767px) {
+  .products__subject {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=shop_single.css.map */

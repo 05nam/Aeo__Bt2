@@ -14,8 +14,8 @@
   position: relative;
 }
 .devices {
-  max-width: 870px;
-  width: 100%;
+  max-width: 74.3589%;
+  // width: 100%;
   margin-left: auto;
 }
 //----devices-header
@@ -135,8 +135,7 @@
 //---------filter----------
 
 .filter {
-  max-width: 274px;
-  width: 100%;
+  max-width: 23.42%;
   position: absolute;
   top: 0;
   left: -30px;
@@ -451,7 +450,39 @@
   color: #4f77ff;
 }
 
-//CTA
-// .cta {
-//   background: #f8fafc;
-// }
+// 768 - 1200
+
+@media (min-width: 768px) and (max-width: 1190px) {
+  .global,
+  .global__title {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .our-shop {
+    padding-bottom: 50px;
+  }
+}
+
+// 576 - 767
+@media (min-width: 576px) and (max-width: 767px) {
+  .global,
+  .global__title {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .category__extend {
+    padding-left: 19px;
+  }
+}
+// max 575
+@media (max-width: 575px) {
+  .global__title {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .devices-header__short .btn {
+    padding: 10px 0px;
+  }
+}

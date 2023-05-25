@@ -14,11 +14,6 @@
 .cta__title {
   padding-bottom: 0;
 }
-.global__title {
-  // padding-left: 0;
-  // padding-right: 0;
-  // letter-spacing: 0px;
-}
 
 .cta__bg {
   overflow: hidden;
@@ -87,3 +82,9 @@
 }
 
 //-------------Similar-Products__title-------------
+
+@media (max-width: 767px) {
+  .products__subject {
+    flex-direction: column;
+  }
+}

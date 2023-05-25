@@ -14,8 +14,7 @@
 }
 
 .devices {
-  max-width: 870px;
-  width: 100%;
+  max-width: 74.3589%;
   margin-left: auto;
 }
 
@@ -141,8 +140,7 @@
 }
 
 .filter {
-  max-width: 274px;
-  width: 100%;
+  max-width: 23.42%;
   position: absolute;
   top: 0;
   left: -30px;
@@ -441,4 +439,34 @@
   text-transform: uppercase;
   /* Action/Blue */
   color: #4f77ff;
+}
+
+@media (min-width: 768px) and (max-width: 1190px) {
+  .global,
+  .global__title {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .our-shop {
+    padding-bottom: 50px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .global,
+  .global__title {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .category__extend {
+    padding-left: 19px;
+  }
+}
+@media (max-width: 575px) {
+  .global__title {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .devices-header__short .btn {
+    padding: 10px 0px;
+  }
 }/*# sourceMappingURL=page_shop_V1.0.css.map */
