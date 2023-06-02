@@ -25,6 +25,11 @@
       integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
       crossorigin="anonymous"
     />
+    <!-- box icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <!-- css -->
     <link rel="stylesheet" href="../../scss/main/main.css" />
   </head>
@@ -144,6 +149,11 @@
     <section class="our-shop">
       <div class="container">
         <div class="our-shop-main">
+          <div class="our-shop__button-category">
+            <button class="btn--blue" onclick="toggleMenu()">
+              <i class="bx bx-menu"></i>
+            </button>
+          </div>
           <div class="devices">
             <div class="devices-header">
               <div class="devices-header__title">
@@ -293,7 +303,7 @@
               </nav>
             </div>
           </div>
-          <div class="filter">
+          <div class="filter" id="filter">
             <div class="category">
               <div class="category__title">
                 <div class="category__title--text">Category</div>
@@ -677,6 +687,9 @@
       integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
       crossorigin="anonymous"
     ></script>
+    <!-- price -->
     <script src="./js/price.js"></script>
+    <!-- show-hide-category -->
+    <script src="./js/show-hide-category.js"></script>
   </body>
 </html>
