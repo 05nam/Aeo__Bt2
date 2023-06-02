@@ -146,24 +146,34 @@
           <div class="slider">
             <div class="slider__view d-flex">
               <img
+                id="samsung-s22"
                 src="../../img/page_shop_single_product/view.png"
                 alt="view.png"
               />
             </div>
             <div class="slider__option d-flex">
-              <div class="slider__option--item">
+              <div
+                class="slider__option-item slider__option-item--first"
+                onclick="changeImage('1')"
+              >
                 <img
                   src="../../img/page_shop_single_product/view-1.png"
                   alt="view-1"
                 />
               </div>
-              <div class="slider__option--item">
+              <div
+                class="slider__option-item slider__option-item--second"
+                onclick="changeImage('2')"
+              >
                 <img
                   src="../../img/page_shop_single_product/view-2.png"
                   alt="view-2"
                 />
               </div>
-              <div class="slider__option--item">
+              <div
+                class="slider__option-item slider__option-item--third"
+                onclick="changeImage('3')"
+              >
                 <img
                   src="../../img/page_shop_single_product/view-3.png"
                   alt="view-3"
@@ -197,27 +207,46 @@
                 <div class="sort">
                   <div class="sort__title">Colors</div>
                   <div class="sort__color">
-                    <div class="sort--size sort__color--light"></div>
-                    <div class="sort--size sort__color--gray"></div>
-                    <div class="sort--size sort__color--pink"></div>
+                    <div
+                      class="sort--size sort__color--light"
+                      onclick="changeImage('1')"
+                    ></div>
+                    <div
+                      class="sort--size sort__color--gray"
+                      onclick="changeImage('2')"
+                    ></div>
+                    <div
+                      class="sort--size sort__color--pink"
+                      onclick="changeImage('3')"
+                    ></div>
                   </div>
                 </div>
               </div>
               <div class="content__body--cart">
                 <div class="cart d-flex align-items-center">
-                  <div class="cart__quantity d-flex">
-                    <div class="cart__quantity--number">1</div>
+                  <div class="cart__quantity">
+                    <div class="cart__quantity--number">
+                      <span id="cart__quantity--number">1</span>
+                    </div>
                     <div class="cart__quantity--arrow">
-                      <div class="arrow arrow--down">
-                        <a href="#">
+                      <div
+                        class="arrow arrow--up"
+                        id="arrow--up"
+                        onclick="increase()"
+                      >
+                        <a href="###">
                           <img
                             src="../../img/page_shop_single_product/up.svg"
                             alt=""
                           />
                         </a>
                       </div>
-                      <div class="arrow arrow--up">
-                        <a href="#">
+                      <div
+                        class="arrow arrow--down"
+                        id="arrow--down"
+                        onclick="reduce()"
+                      >
+                        <a href="###">
                           <img
                             src="../../img/page_shop_single_product/down.svg"
                             alt=""
@@ -591,5 +620,7 @@
       integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
       crossorigin="anonymous"
     ></script>
+    <!-- change img -->
+    <script src="./page_shop_single_product.js"></script>
   </body>
 </html>
