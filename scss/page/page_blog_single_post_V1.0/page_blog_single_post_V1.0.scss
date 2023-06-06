@@ -1,12 +1,16 @@
 @import "../../abstracts/variables_home.scss";
 
 //--------blog single -----------
+.blog-single {
+  padding-top: 90px;
+  padding-bottom: 100px;
+}
 .blog-single-main {
-  max-width: 835px;
+  max-width: 71.38%;
   width: 100%;
 }
-.d-flex {
-  gap: 65px;
+.blog-single-flex {
+  display: flex;
 }
 //---------section body-------
 .section-content {
@@ -256,4 +260,34 @@
 
 .write-a-comment__submit {
   padding-top: 20px;
+}
+
+@media (max-width: 575px) {
+  .blog-single-flex {
+    flex-direction: column;
+  }
+  .blog-single-main {
+    max-width: 100%;
+  }
+
+  .blog-main {
+    max-width: 100%;
+  }
+  .global__desc--big {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .write-a-comment__envelop {
+    flex-direction: column;
+    // input
+    input {
+      width: 100%;
+    }
+  }
+  .blog-extra__input label {
+    width: 100%;
+  }
+  .related__list {
+    flex-direction: column;
+  }
 }

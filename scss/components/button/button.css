@@ -8,6 +8,11 @@
   padding: 12px 38px;
 }
 
+@media (max-width: 575px) {
+  .btn--big {
+    padding: 12px 25px;
+  }
+}
 .btn--blue {
   background-color: #4c6fff;
   color: #ffffff;

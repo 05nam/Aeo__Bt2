@@ -9,6 +9,11 @@
   text-transform: uppercase;
   padding: 12px 38px;
 }
+@media (max-width: 575px) {
+  .btn--big {
+    padding: 12px 25px;
+  }
+}
 
 //  BG button
 .btn--blue {
